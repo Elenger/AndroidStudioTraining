@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P014_AndroiodMenu</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_item1">item1</string>
+    <string name="action_item2">item2</string>
+    <string name="action_item3">item3</string>
+    <string name="mail">mail</string>
+    <string name="invisible_item">Отобразить пункт меню</string>
+    <string name="invisible_group">Отобразить группу</string>
+    <string name="chb3">Отобразить мейл</string>
+
+
+</resources>

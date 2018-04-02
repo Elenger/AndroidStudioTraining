@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P0191_SimpleCalculator</string>
+    <string name="textview">Result</string>
+    <string name="BettonDevision">/</string>
+    <string name="ButtonMultiplication">*</string>
+    <string name="ButtonDifference">-</string>
+    <string name="ButtonSum">+</string>
+</resources>

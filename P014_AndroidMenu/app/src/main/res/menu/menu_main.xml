@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eleng.p014_androidmenu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mail"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="1"
+        android:title="@string/mail"
+        app:showAsAction="always" />
+
+    <group android:id="@+id/group2">
+        <item
+        android:id="@+id/action_item1"
+        android:orderInCategory="4"
+        android:title="@string/action_item1"
+        app:showAsAction="never" />
+    </group>
+
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/action_item2"
+            android:orderInCategory="2"
+            android:title="@string/action_item2"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_item3"
+            android:orderInCategory="1"
+            android:title="@string/action_item3"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
